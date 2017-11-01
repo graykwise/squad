@@ -15,6 +15,8 @@ class SquadViewController: UIViewController, UITableViewDelegate, UITableViewDat
     
     @IBOutlet weak var squadTable: UITableView!
     
+    @IBOutlet weak var trackButton: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         dummySquad = Squad(name: "Example Squad", challenge: "Work out 5 times", wager: "A homemade meal", members: dummyMemberList)
@@ -27,6 +29,12 @@ class SquadViewController: UIViewController, UITableViewDelegate, UITableViewDat
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    @IBAction func trackClicked(_ sender: UIButton) {
+        performSegue(withIdentifier: "trackResult", sender: sender)
+    }
+    
+    
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return 4;

@@ -18,6 +18,7 @@
 		BCB3EC0B1FA96024002F21A0 /* WagerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB3EC0A1FA96023002F21A0 /* WagerCell.swift */; };
 		BCB3EC0D1FA96035002F21A0 /* MemberCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB3EC0C1FA96035002F21A0 /* MemberCell.swift */; };
 		BCB3EC0F1FA96B1D002F21A0 /* Squad.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB3EC0E1FA96B1D002F21A0 /* Squad.swift */; };
+		BCB3EC111FAA28A2002F21A0 /* TrackViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB3EC101FAA28A2002F21A0 /* TrackViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		BCB3EC0A1FA96023002F21A0 /* WagerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WagerCell.swift; sourceTree = "<group>"; };
 		BCB3EC0C1FA96035002F21A0 /* MemberCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberCell.swift; sourceTree = "<group>"; };
 		BCB3EC0E1FA96B1D002F21A0 /* Squad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Squad.swift; sourceTree = "<group>"; };
+		BCB3EC101FAA28A2002F21A0 /* TrackViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +71,7 @@
 				BCB3EBF21FA95DBA002F21A0 /* AppDelegate.swift */,
 				BCB3EBF41FA95DBA002F21A0 /* LoginViewController.swift */,
 				BCB3EBF61FA95DBA002F21A0 /* Main.storyboard */,
+				BCB3EC101FAA28A2002F21A0 /* TrackViewController.swift */,
 				BCB3EC081FA96019002F21A0 /* ChallengeCell.swift */,
 				BCB3EC0A1FA96023002F21A0 /* WagerCell.swift */,
 				BCB3EC0C1FA96035002F21A0 /* MemberCell.swift */,
@@ -155,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BCB3EC0B1FA96024002F21A0 /* WagerCell.swift in Sources */,
+				BCB3EC111FAA28A2002F21A0 /* TrackViewController.swift in Sources */,
 				BCB3EC091FA96019002F21A0 /* ChallengeCell.swift in Sources */,
 				BCB3EC051FA95EBF002F21A0 /* SquadViewController.swift in Sources */,
 				BCB3EC071FA95FE0002F21A0 /* SquadNameCell.swift in Sources */,
