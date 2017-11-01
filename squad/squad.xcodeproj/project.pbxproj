@@ -8,20 +8,32 @@
 
 /* Begin PBXBuildFile section */
 		BCB3EBF31FA95DBA002F21A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB3EBF21FA95DBA002F21A0 /* AppDelegate.swift */; };
-		BCB3EBF51FA95DBA002F21A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB3EBF41FA95DBA002F21A0 /* ViewController.swift */; };
+		BCB3EBF51FA95DBA002F21A0 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB3EBF41FA95DBA002F21A0 /* LoginViewController.swift */; };
 		BCB3EBF81FA95DBA002F21A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCB3EBF61FA95DBA002F21A0 /* Main.storyboard */; };
 		BCB3EBFA1FA95DBA002F21A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCB3EBF91FA95DBA002F21A0 /* Assets.xcassets */; };
 		BCB3EBFD1FA95DBA002F21A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BCB3EBFB1FA95DBA002F21A0 /* LaunchScreen.storyboard */; };
+		BCB3EC051FA95EBF002F21A0 /* SquadViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB3EC041FA95EBF002F21A0 /* SquadViewController.swift */; };
+		BCB3EC071FA95FE0002F21A0 /* SquadNameCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB3EC061FA95FE0002F21A0 /* SquadNameCell.swift */; };
+		BCB3EC091FA96019002F21A0 /* ChallengeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB3EC081FA96019002F21A0 /* ChallengeCell.swift */; };
+		BCB3EC0B1FA96024002F21A0 /* WagerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB3EC0A1FA96023002F21A0 /* WagerCell.swift */; };
+		BCB3EC0D1FA96035002F21A0 /* MemberCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB3EC0C1FA96035002F21A0 /* MemberCell.swift */; };
+		BCB3EC0F1FA96B1D002F21A0 /* Squad.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB3EC0E1FA96B1D002F21A0 /* Squad.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BCB3EBEF1FA95DBA002F21A0 /* squad.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = squad.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCB3EBF21FA95DBA002F21A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BCB3EBF41FA95DBA002F21A0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BCB3EBF41FA95DBA002F21A0 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		BCB3EBF71FA95DBA002F21A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BCB3EBF91FA95DBA002F21A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BCB3EBFC1FA95DBA002F21A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BCB3EBFE1FA95DBA002F21A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCB3EC041FA95EBF002F21A0 /* SquadViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquadViewController.swift; sourceTree = "<group>"; };
+		BCB3EC061FA95FE0002F21A0 /* SquadNameCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquadNameCell.swift; sourceTree = "<group>"; };
+		BCB3EC081FA96019002F21A0 /* ChallengeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeCell.swift; sourceTree = "<group>"; };
+		BCB3EC0A1FA96023002F21A0 /* WagerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WagerCell.swift; sourceTree = "<group>"; };
+		BCB3EC0C1FA96035002F21A0 /* MemberCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemberCell.swift; sourceTree = "<group>"; };
+		BCB3EC0E1FA96B1D002F21A0 /* Squad.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Squad.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +67,14 @@
 			isa = PBXGroup;
 			children = (
 				BCB3EBF21FA95DBA002F21A0 /* AppDelegate.swift */,
-				BCB3EBF41FA95DBA002F21A0 /* ViewController.swift */,
+				BCB3EBF41FA95DBA002F21A0 /* LoginViewController.swift */,
 				BCB3EBF61FA95DBA002F21A0 /* Main.storyboard */,
+				BCB3EC081FA96019002F21A0 /* ChallengeCell.swift */,
+				BCB3EC0A1FA96023002F21A0 /* WagerCell.swift */,
+				BCB3EC0C1FA96035002F21A0 /* MemberCell.swift */,
+				BCB3EC061FA95FE0002F21A0 /* SquadNameCell.swift */,
+				BCB3EC041FA95EBF002F21A0 /* SquadViewController.swift */,
+				BCB3EC0E1FA96B1D002F21A0 /* Squad.swift */,
 				BCB3EBF91FA95DBA002F21A0 /* Assets.xcassets */,
 				BCB3EBFB1FA95DBA002F21A0 /* LaunchScreen.storyboard */,
 				BCB3EBFE1FA95DBA002F21A0 /* Info.plist */,
@@ -136,7 +154,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BCB3EBF51FA95DBA002F21A0 /* ViewController.swift in Sources */,
+				BCB3EC0B1FA96024002F21A0 /* WagerCell.swift in Sources */,
+				BCB3EC091FA96019002F21A0 /* ChallengeCell.swift in Sources */,
+				BCB3EC051FA95EBF002F21A0 /* SquadViewController.swift in Sources */,
+				BCB3EC071FA95FE0002F21A0 /* SquadNameCell.swift in Sources */,
+				BCB3EC0F1FA96B1D002F21A0 /* Squad.swift in Sources */,
+				BCB3EC0D1FA96035002F21A0 /* MemberCell.swift in Sources */,
+				BCB3EBF51FA95DBA002F21A0 /* LoginViewController.swift in Sources */,
 				BCB3EBF31FA95DBA002F21A0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
